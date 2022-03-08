@@ -10,7 +10,32 @@ html {
     padding: 0;
 }
 
+/* used grid settings from revolut to mirror centre alignment and broken sections */
+.wrapper{
+    display: grid;
+    gap: 1.5rem;
+    min-height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    width: 100%;
+}
+
 body {
 /* gradiant */
 background-color: e9ebee;
+}
+
+#top-menu {
+    display: flex;
+    height: 100px;
+}
+
+#links {
+    width: 100px; 
+    height: 100px;
+    margin: auto;
+    padding 1em
 }
