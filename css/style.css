@@ -1,0 +1,16 @@
+/* Setting Variables to control color scheme throughout page */
+:root {
+    
+}
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+/* gradiant */
+background-color: e9ebee;
+}
