@@ -11,9 +11,9 @@ html {
 }
 
 /* used grid settings from revolut to mirror centre alignment and broken sections */
-.wrapper{
+.wrapper {
     display: grid;
-    grid-gap: 1.5rem;
+    gap: 1.5rem;
     min-height: 100vh;
     max-width: 1200px;
     margin-left: auto;
@@ -24,32 +24,35 @@ html {
 }
 
 body {
-/* gradiant */
-background-color: e9ebee;
+    background-image: linear-gradient(to bottom, #ffc35e, #ff8f6d, #ff6499, #c25dc9, #076ae1);
 }
 
 .top-menu {
     display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px;
-  list-style: none;
-  margin: 0; 
-  background: deepskyblue;
-
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+    background: #076ae1;
 }
 
-.links {
-    display: inline-block;
-    width: 100px; 
-    height: 50px;
-    margin: auto;
-    padding: 1em;
-    font-size: 1rem;
-    
-}
 
 .logo {
-    order: -1;
-    margin-left: auto;
+    width: auto;
+    height: 150px;
 }
+
+.nav_links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.nav_links a {
+    color: white;
+}
+
+.nav_links a:hover {
+    background: #076ae1;
+  }
