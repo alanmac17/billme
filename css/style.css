@@ -13,6 +13,12 @@
     padding: 0;
 }
 
+body {
+    font-family: Fredoka, sans-serif;
+    font-weight: 300;
+    /* background-image: linear-gradient(to bottom, #ffc35e, #ff8f6d, #ff6499, #c25dc9, #076ae1); */
+}
+
 /* used grid settings from revolut to mirror centre alignment and broken sections */
 .wrapper {
     display: grid;
@@ -26,11 +32,6 @@
     width: 100%;
 }
 
-body {
-    font-family: Fredoka, sans-serif;
-    font-weight: 300;
-    background-image: linear-gradient(to bottom, #ffc35e, #ff8f6d, #ff6499, #c25dc9, #076ae1);
-}
 /* headings */
 
 h1, h2 {
@@ -52,6 +53,7 @@ h1, h2 {
     height: 150px;
 }
 
+
 header ul {
     list-style-type:none
 }
@@ -67,9 +69,17 @@ header ul {
     padding: 20px;
     color: #076ae1;
     font-size: 25px;
+    text-decoration: none;
 }
 
 .nav_links a:hover {
     background: #076ae1;
     color: white;
+  }
+
+  /* hero section */
+  .hero_image {
+      height: 600px;
+      width: 100%;
+      background: url('..img/matt');
   }
