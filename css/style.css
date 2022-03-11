@@ -27,37 +27,49 @@
 }
 
 body {
-    font-family: fredoka, sans-serif;
+    font-family: Fredoka, sans-serif;
     font-weight: 300;
     background-image: linear-gradient(to bottom, #ffc35e, #ff8f6d, #ff6499, #c25dc9, #076ae1);
+}
+/* headings */
+
+h1, h2 {
+    font-family: Raleway, sans-serif;
+    letter-spacing: 1px;
 }
 
 .top-menu {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    flex-flow: row wrap;
     align-items: center;
-    background: #076ae1;
+    text-decoration: none;
 }
-
 
 .logo {
     width: auto;
     height: 150px;
 }
 
+header ul {
+    list-style-type:none
+}
+
 .nav_links {
     display: flex;
-    justify-content: space-evenly;
-    flex-flow: row wrap;
-    list-style-type: none;
-    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
 
 .nav_links a {
-    color: white;
+    padding: 20px;
+    color: #076ae1;
+    font-size: 25px;
 }
 
 .nav_links a:hover {
     background: #076ae1;
+    color: white;
   }
