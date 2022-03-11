@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Raleway:wght@300&display=swap');
+
+
 /* Setting Variables to control color scheme throughout page */
 /* :root {
     
 } */
 
-html {
+* {
     font-size: 100%;
     box-sizing: border-box;
     margin: 0;
@@ -24,6 +27,8 @@ html {
 }
 
 body {
+    font-family: fredoka, sans-serif;
+    font-weight: 300;
     background-image: linear-gradient(to bottom, #ffc35e, #ff8f6d, #ff6499, #c25dc9, #076ae1);
 }
 
