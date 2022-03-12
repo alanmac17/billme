@@ -101,14 +101,11 @@ header ul {
     animation-fill-mode: forwards;
 }
 
-#cover-text,
 #cover-text h1 {
-    color: #fff;
     font-size: 40px;
 }
 
 #cover-text p {
-    color: #fff;
     font-size: 20px;
 }
 
@@ -124,18 +121,43 @@ header ul {
 }
 
 #cover-text {
+    display: flex;
+    gap: 10px;
+    text-align: right;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
     font-family: Fredoka;
     text-transform: uppercase;
     letter-spacing: 1px;
+   
     width: 500px;
     height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
+    padding: 40px 10px 10px 10px;
 
     background-color: rgba(241, 109, 107, .7);
+    color: #fff;
 
     bottom: 30px;
-    right: 150px;
+    right: 100px;
     position: absolute;
 
 }
+
+.button {
+      color: white;
+      position: relative;
+      text-decoration: none;
+      text-transform: uppercase;
+    border-radius: 10px;
+    margin-bottom: auto;
+    }
+    
+    /* .button:hover {
+      background-color: #ce0606;
+    }
+    
+    .button:active {
+      box-shadow: none;
+      top: 2px; */
+    }
