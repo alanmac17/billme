@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 
 /* Setting Variables to control color scheme throughout page */
@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: Fredoka, sans-serif;
+    font-family: Numito, sans-serif;
     font-weight: 300;
     background-image: #f5f8fa;
     /* background-image: linear-gradient(to bottom, #ffc35e, #ff8f6d, #ff6499, #c25dc9, #076ae1); */
@@ -38,7 +38,6 @@ body {
 
 h1,
 h2 {
-    font-family: Raleway, sans-serif;
     letter-spacing: 1.5px;
     font-size: x-large;
 
@@ -55,6 +54,7 @@ h2 {
     height: 100%;
     background: #076ae1;
     border-radius: 10px;
+    letter-spacing: 2px;
 }
 
 .logo {
@@ -103,8 +103,6 @@ header ul {
     width: 100%;
     background: url('../img/matt-le-SJSpo9hQf7s-unsplash.jpg') no-repeat center center;
     background-size: cover;
-    /* background-image: linear-gradient(to bottom, #ffc35e, #ff8f6d, #ff6499, #c25dc9, #076ae1); */
-
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -144,7 +142,7 @@ header ul {
     height: 200px;
     padding: 40px 15px 10px 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(107, 241, 234, 0.3);
     color: #fff;
 
     bottom: 50px;
@@ -182,7 +180,7 @@ header ul {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     padding: 30px;
-    border: solid 1px;
+
     background: #ffc35e;
     border-radius: 10px;
     line-height: 1cm;
@@ -197,9 +195,9 @@ header ul {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     padding: 30px;
-    border: solid 1px;
     background: #ff8f6d;
     border-radius: 10px;
+    text-align: center;
 }
 
 .feature-right>img {
@@ -215,7 +213,6 @@ header ul {
 .reasons {
     padding: 15px;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .boxes {
@@ -225,10 +222,11 @@ header ul {
 
 .box {
     flex: 1;
-    background: #0a51cc;
-    color: #fff;
+    background:  #c25dc9;
+    font-weight: bold;
     border-radius: 10px;
     margin: 10px;
     padding: 15px;
     max-width: 300px;
+    line-height: 20px;
 }
