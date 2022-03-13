@@ -159,3 +159,15 @@ header ul {
       box-shadow: none;
       top: 2px;
     } */
+
+    /* about section */
+
+    .about{
+    display: grid;
+    justify-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    border: solid 1px;
+    }
