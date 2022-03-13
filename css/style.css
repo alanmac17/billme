@@ -31,6 +31,7 @@ body {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     width: 100%;
+    overflow: hidden;
 }
 
 /* headings */
@@ -43,9 +44,10 @@ h2 {
 
 }
 
+/* Navigation & Logo */
+
 .top-menu {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -60,9 +62,7 @@ h2 {
     width: 100%;
     height: 75px;
     border-radius: 10px;
-    
 }
-
 
 header ul {
     list-style-type: none
@@ -70,6 +70,8 @@ header ul {
 
 .nav_links {
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .nav_links a {
@@ -77,7 +79,7 @@ header ul {
     color: white;
     font-size: 18px;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .nav_links a:hover {
@@ -130,13 +132,13 @@ header ul {
 #cover-text {
     display: flex;
     gap: 10px;
-    text-align: right;
+    text-align: center;
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
     font-family: Fredoka;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 
     width: 500px;
     height: 200px;
@@ -145,7 +147,7 @@ header ul {
     background-color: rgba(241, 109, 107, .7);
     color: #fff;
 
-    bottom: 30px;
+    bottom: 50px;
     right: 100px;
     position: absolute;
 }
@@ -156,19 +158,20 @@ header ul {
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 10px;
-    margin-bottom: auto;
+    margin: auto;
+    padding: 1px;
     width: auto;
     min-height: 30px;
-        }
+}
 
-/* .button:hover {
+.button:hover {
       background-color: #ce0606;
     }
     
      .button:active {
       box-shadow: none;
       top: 2px;
-    } */
+    } 
 
 /* about section */
 
@@ -182,6 +185,7 @@ header ul {
     border: solid 1px;
     background: #ffc35e;
     border-radius: 10px;
+    line-height: 1cm;
 }
 
 /* feature section */
@@ -204,6 +208,10 @@ header ul {
     object-fit: contain;
 }
 
+.feature-left {
+    line-height: 1cm;
+}
+
 .reasons {
     padding: 15px;
     text-align: center;
@@ -223,4 +231,4 @@ header ul {
     margin: 10px;
     padding: 15px;
     max-width: 300px;
-  }
+}
