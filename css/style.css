@@ -48,6 +48,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
+    height: 100%;
 }
 
 .logo {
@@ -62,9 +63,6 @@ header ul {
 
 .nav_links {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
 }
 
 .nav_links a {
@@ -130,7 +128,7 @@ header ul {
     font-family: Fredoka;
     text-transform: uppercase;
     letter-spacing: 1px;
-   
+
     width: 500px;
     height: 200px;
     padding: 40px 10px 10px 10px;
@@ -145,19 +143,19 @@ header ul {
 }
 
 .button {
-      color: white;
-      position: relative;
-      text-decoration: none;
-      text-transform: uppercase;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
     border-radius: 10px;
     margin-bottom: auto;
-    }
-    
-    /* .button:hover {
+}
+
+/* .button:hover {
       background-color: #ce0606;
     }
     
-    .button:active {
+     .button:active {
       box-shadow: none;
-      top: 2px; */
-    }
+      top: 2px;
+    } */
