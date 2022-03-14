@@ -267,3 +267,16 @@ header ul {
     list-style-type: none;
 }
 
+/* taken from https://stackoverflow.com/questions/10868640/align-html-input-fields-by */
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+input {
+  display: inline-block;
+  float: left;
+}
