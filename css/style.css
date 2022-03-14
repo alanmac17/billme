@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
-
-/* Setting Variables to control color scheme throughout page */
-/* :root {
-    
-} */
-
 * {
     font-size: 100%;
     box-sizing: border-box;
@@ -40,6 +34,7 @@ h1,
 h2 {
     letter-spacing: 1.5px;
     font-size: x-large;
+    font-weight: bold;
 
 }
 
@@ -52,13 +47,13 @@ h2 {
     align-items: center;
     text-decoration: none;
     height: 100%;
-    background: #076ae1;
+    background: #f5f8fa;
     border-radius: 10px;
     letter-spacing: 2px;
+    padding-top: 5px;
 }
 
 .logo {
-    padding: 10px;
     width: 100%;
     height: 75px;
     border-radius: 10px;
@@ -76,15 +71,17 @@ header ul {
 
 .nav_links a {
     padding: 0 15px 0 15px;
-    color: white;
+    color: #076ae1;
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
+    border-left: 1px solid #076ae1;
+    
 }
 
 .nav_links a:hover {
-    background: #076ae1;
-    color: white;
+    background: white;
+    color: #076ae1;
 }
 
 /* hero section */
@@ -101,7 +98,7 @@ header ul {
 .hero-image {
     height: 400px;
     width: 100%;
-    background: url('../img/matt-le-SJSpo9hQf7s-unsplash.jpg') no-repeat center center;
+    background: url('/img/mo-DP0LMBAIzZQ-unsplash.jpg') no-repeat center center;
     background-size: cover;
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -134,14 +131,13 @@ header ul {
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
-    text-transform: uppercase;
     letter-spacing: 1.5px;
 
     width: 500px;
     height: 200px;
     padding: 40px 15px 10px 10px;
 
-    background-color: rgba(107, 241, 234, 0.3);
+    background-color: rgba(241, 107, 219, 0.7);
     color: #fff;
 
     bottom: 50px;
@@ -174,7 +170,6 @@ header ul {
 
 .about {
     display: grid;
-    justify-items: center;
     justify-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
@@ -249,7 +244,6 @@ header ul {
     height: 150px;
     width: auto;
     object-fit: contain;
-    border-radius: 10px;
 }
 
 .signup-right {
@@ -258,7 +252,6 @@ header ul {
 
 .signup-form {
     color: #fff;
-    padding-top: 10px;
     font-weight: bold;
 }
 
@@ -270,9 +263,15 @@ header ul {
 
 /* footer */
 footer {
-    position: relative;
-    bottom: 0;
+    display:flex;
+    flex-direction: column;
     text-align: center;
-    height: 2.5rem;
-    padding: 30px;  
+    padding: 15px;
+  }
+
+    .social-links i {
+      font-size: 160%;
+      margin: 1%;
+      padding: 5px;
+      color:#666;
   }
