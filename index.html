@@ -44,7 +44,7 @@
         <Section>
             <div class="about">
                 <div class="about-left">
-                    <video src="/img/video.mp4" width=500 autoplay loop muted controls>
+                    <video src="/img/video.mp4" width=450 autoplay muted controls>
                         <p>Your browser doesn't support HTML5 video .</p>
                     </video>
                 </div>
@@ -103,36 +103,29 @@
         </Section>
 
         <!-- Sign Up Section Form -->
-        <Section>
-            <div class="signup-grid">
-                <div class="signup-grid-one">
-                    <h1>Do you really want to caught out by another free subscription</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet iste illum temporibus
-                        cupiditate. Neque
-                        incidunt eum, laboriosam omnis tenetur ducimus reprehenderit cum blanditiis vel quasi
-                        consequatur
-                        necessitatibus nostrum, quisquam ipsa.</p>
-                </div>
-                <div class="signup-grid-two">
-                 <img src="img/bruce-mars-FWVMhUa_wbY-unsplash.jpg" alt="signup image">
-                </div>
+        <Section class="signup">
+                <img src="/img/bruce-mars-FWVMhUa_wbY-unsplash.jpg" alt="sign up">
+                <div class="signup-right">
+                    <div class="text">
+                        <h1>Do you really want to caught out by another free subscription</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet iste illum temporibus
+                            cupiditate. Neque
+                            incidunt eum, laboriosam omnis tenetur ducimus reprehenderit cum blanditiis vel quasi
+                            consequatur
+                            necessitatibus nostrum, quisquam ipsa.</p>
+                    </div>
+                    <div class="sign-up-form">
+                        <form action="https://formdump.codeinstitute.net" method="POST">
 
+                            <label for="fname">First Name</label>
+                            <input type="text" name="first_name" id="fname" required>
 
-                <div class="signup-grid-three">
-                    <form action="https://formdump.codeinstitute.net" method="POST">
+                            <label for="lname">Last Name</label>
+                            <input type="text" name="last_name" id="lname" required>
 
-                        <fieldset>
-                            <legend>Your details</legend>
-
-                            <div class="float-left">
-                                <label for="name-field" class="block-label">Name</label>
-                                <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
-                            </div>
-                            <div class="float-left">
-                                <label for="email-field" class="block-label">Email</label>
-                                <input id="email-field" type="email" name="email" placeholder="Your email" required>
-                            </div>
-                        </fieldset>
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email_address" id="email" required>
+                    </div>
                 </div>
             </div>
         </Section>
