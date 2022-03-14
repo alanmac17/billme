@@ -281,13 +281,26 @@ footer {
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+
+.wrapper {
+    gap: 1rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 70%;
+    overflow: hidden;
+}
+
+
     .about {
         grid-template-columns: repeat(1, 1fr);
     }
     .features {
         grid-template-columns: repeat(1, 1fr);
     }
-
+  
 }
 
 /* For medium screens size from 700px wide and down */
@@ -300,3 +313,16 @@ footer {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .about-left {
+        display: none;
+    }
+
+    .feature-right {
+        display: none;
+    }
+
+    #cover-text {
+        display: none;
+    }
+
+}
