@@ -252,7 +252,7 @@ header ul {
     object-fit: contain;
 }
 
-.signup-right h2,  p {
+.signup-right h2, .signup-right p {
     color: white;
 }
 
