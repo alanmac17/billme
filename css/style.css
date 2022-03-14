@@ -16,7 +16,7 @@
 body {
     font-family: Numito, sans-serif;
     font-weight: 300;
-    background-image: #f5f8fa;
+    background: #f5f8fa;
     /* background-image: linear-gradient(to bottom, #ffc35e, #ff8f6d, #ff6499, #c25dc9, #076ae1); */
 }
 
@@ -108,11 +108,11 @@ header ul {
     animation-fill-mode: forwards;
 }
 
-#cover-text h1 {
+#cover-text > h1 {
     font-size: 40px;
 }
 
-#cover-text p {
+#cover-text > p {
     font-size: 20px;
 }
 
@@ -252,43 +252,30 @@ header ul {
     object-fit: contain;
 }
 
-.signup-right h2, .signup-right p {
-    color: white;
+.signup-right {
+    padding-top: 10px;
+    background: whitesmoke;
+    border-radius: 10px;
 }
 
 .signup-form {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    
+padding: 0 200px 0 100px;
 }
 
 .field-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
     list-style-type: none;
 }
 
-/* taken from https://stackoverflow.com/questions/10868640/align-html-input-fields-by */
-
-label{
-    display: inline-block;
-    float: left;
-    clear: left;
-    width: 250px;
-    text-align: right;
-}
-input {
-  display: inline-block;
-  margin-left: 10px;
-  float: left;
-}
-
 /* footer */
-.footer {
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
+    background: #076ae1;
+    color: black;
     text-align: center;
+    height: 2.5rem;  
   }
