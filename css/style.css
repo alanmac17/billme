@@ -252,12 +252,18 @@ header ul {
     object-fit: contain;
 }
 
-.signup-right   {
+.signup-right h2,  p {
+    color: white;
+}
+
+.signup-form {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    
 }
 
-.sign-up-form > input {
-    flex: 1;
+.field-row{
+    list-style-type: none;
 }
+
