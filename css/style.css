@@ -224,7 +224,7 @@ header ul {
     font-weight: bold;
     border-radius: 10px;
     margin: 10px;
-    padding: 15px;
+    padding: 10px;
     max-width: 300px;
     line-height: 20px;
 }
@@ -238,7 +238,8 @@ header ul {
 .signup {
     background-color: #076ae1;
     display: flex;
-    padding: 30px;
+    justify-content: center;
+    padding: 10px;
     border-radius: 10px;
     text-align: center;
     height: auto;
@@ -247,10 +248,6 @@ header ul {
 .signup>img {
     height: 150px;
     max-width: 100%;
-}
-
-.signup-right {
-    padding: 10px 0 0 70px;
 }
 
 .signup-form {
@@ -312,13 +309,12 @@ footer {
         grid-template-columns: (1fr);
         padding: 5px;
         line-height: 30px;
-        text-align: justify;
+        text-align: center;
     }
 
     .features {
         grid-template-columns: (1fr);
         padding: 5px;
-        text-align: justify;
     }
 
     .about-left {
@@ -339,7 +335,15 @@ footer {
     }
 
     .signup {
-        padding: 5px;
+        flex-direction: column;
+    }
+
+    .signup>img {
+        display: none;
+    }
+
+    .signup-right {
+        padding: 0;
     }
 
 }
