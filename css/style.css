@@ -172,6 +172,7 @@ header ul {
     display: grid;
     justify-items: center;
     text-align: center;
+    align-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     padding: 30px;
@@ -194,8 +195,7 @@ header ul {
 }
 
 .feature-right>img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
     object-fit: contain;
 }
 
@@ -225,9 +225,7 @@ header ul {
 }
 
 .feature-right>img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+    max-width: 100%;
 }
 
 /* sign up section */
@@ -243,8 +241,7 @@ header ul {
 
 .signup>img {
     height: 150px;
-    width: auto;
-    object-fit: contain;
+    max-width: 100%;
 }
 
 .signup-right {
@@ -303,14 +300,15 @@ footer {
   
 }
 
-/* For medium screens size from 700px wide and down */
-@media screen and (max-width: 700px) {
+/* For medium screens size from 800px wide and down */
+@media screen and (max-width: 800px) {
+
     .about {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: (1fr);
     }
 
     .features {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: (1fr);
     }
 
     .about-left {
@@ -325,4 +323,15 @@ footer {
         display: none;
     }
 
+    .boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
+
+@media only screen and (max-width: 480px) {
+    body {
+       
+        }
+    }
