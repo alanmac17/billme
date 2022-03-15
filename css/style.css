@@ -38,6 +38,11 @@ h2 {
 
 }
 
+p  {
+    overflow-wrap: break-word;
+    max-width: 600px;
+}
+
 /* Navigation & Logo */
 
 .top-menu {
@@ -171,14 +176,14 @@ header ul {
 .about {
     display: grid;
     justify-items: center;
-    text-align: center;
+    text-align: justify;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     padding: 30px;
     background: #ffc35e;
     border-radius: 10px;
-    line-height: 1cm;
+    line-height: 0.9cm;
 }
 
 /* feature section */
@@ -305,10 +310,15 @@ footer {
 
     .about {
         grid-template-columns: (1fr);
+        padding: 5px;
+        line-height: 30px;
+        text-align: justify;
     }
 
     .features {
         grid-template-columns: (1fr);
+        padding: 5px;
+        text-align: justify;
     }
 
     .about-left {
@@ -326,6 +336,10 @@ footer {
     .boxes {
         flex-direction: column;
         align-items: center;
+    }
+
+    .signup {
+        padding: 5px;
     }
 
 }
