@@ -268,6 +268,8 @@ footer {
     flex-direction: column;
     text-align: center;
     padding: 15px;
+    justify-content: space-evenly;
+    
 }
 
 .social-links i {
