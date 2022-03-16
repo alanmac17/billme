@@ -28,7 +28,7 @@ body {
     overflow: hidden;
 }
 
-/* headings */
+/* headings & paragraphs */
 
 h1,
 h2 {
@@ -38,7 +38,7 @@ h2 {
 
 }
 
-p  {
+p {
     overflow-wrap: break-word;
     max-width: 600px;
 }
@@ -81,12 +81,12 @@ header ul {
     text-decoration: none;
     font-weight: bold;
     border-left: 1px solid #076ae1;
-    
+
 }
 
 .nav_links a:hover {
-    background: white;
-    color: #076ae1;
+    background: #076ae1;
+    color: white;
 }
 
 /* hero section */
@@ -110,11 +110,11 @@ header ul {
     animation-fill-mode: forwards;
 }
 
-#cover-text > h1 {
+#cover-text>h1 {
     font-size: 40px;
 }
 
-#cover-text > p {
+#cover-text>p {
     font-size: 20px;
 }
 
@@ -149,6 +149,8 @@ header ul {
     right: 100px;
     position: absolute;
 }
+
+/* buttons */
 
 .button {
     color: white;
@@ -208,6 +210,8 @@ header ul {
     line-height: 1cm;
 }
 
+/* reasons section */
+
 .reasons {
     padding: 15px;
     text-align: center;
@@ -229,9 +233,6 @@ header ul {
     line-height: 20px;
 }
 
-.feature-right>img {
-    max-width: 100%;
-}
 
 /* sign up section */
 
@@ -255,7 +256,7 @@ header ul {
     font-weight: bold;
 }
 
-.field-row{
+.field-row {
     display: inline-block;
     list-style-type: none;
     text-align: center;
@@ -263,47 +264,61 @@ header ul {
 
 /* footer */
 footer {
-    display:flex;
+    display: flex;
     flex-direction: column;
     text-align: center;
     padding: 15px;
-  }
+}
 
-    .social-links i {
-      font-size: 160%;
-      margin: 1%;
-      padding: 5px;
-      color:#666;
-  }
+.social-links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5px;
+    color: #666;
+}
 
-  /* Media queries */
+/* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
-.wrapper {
-    gap: 1rem;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 70%;
-    overflow: hidden;
-}
+    .wrapper {
+        gap: 1rem;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 70%;
+        overflow: hidden;
+    }
 
 
     .about {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .features {
         grid-template-columns: repeat(1, 1fr);
     }
-  
+
 }
 
 /* For medium screens size from 800px wide and down */
 @media screen and (max-width: 800px) {
+
+    .top-menu {
+        flex-direction: column;
+    }
+
+    .nav_links {
+        padding-top: 15px;
+        flex-direction: column;
+    }
+
+    .nav_links a {
+        border: none;
+    }
 
     .about {
         grid-template-columns: (1fr);
@@ -351,10 +366,9 @@ footer {
         padding: 0;
     }
 
-    .field-row{
+    .field-row {
         display: flex;
         justify-content: space-between;
     }
 
 }
-
