@@ -76,16 +76,16 @@ header ul {
 
 .nav_links a {
     padding: 0 15px 0 15px;
-    color: #076ae1;
+    color: #44318d;
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
-    border-left: 1px solid #076ae1;
+    border-left: 1px solid #44318d;
 
 }
 
 .nav_links a:hover {
-    background: #076ae1;
+    background: #2a1b3d;
     color: white;
 }
 
