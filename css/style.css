@@ -31,8 +31,8 @@ body {
 
 h1,
 h2 {
-    letter-spacing: 1.5px;
-   text-transform: uppercase;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     font-family: Oxygen, sans-serif;
 
 }
@@ -57,8 +57,7 @@ p {
 }
 
 .logo {
-    width: 100%;
-    height: 75px;
+    max-width: 5rem;
     border-radius: 10px;
 }
 
@@ -75,7 +74,7 @@ header ul {
 .nav_links a {
     padding: 0 15px 0 15px;
     color: #44318d;
-    font-size: 18px;
+    font-size: 1.25rem;
     text-decoration: none;
     font-weight: bold;
     border-left: 1px solid #44318d;
@@ -90,7 +89,7 @@ header ul {
 /* hero section */
 
 .hero-outer {
-    height: 400px;
+    max-height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -109,13 +108,7 @@ header ul {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-#cover-text>h1 {
-    font-size: 40px;
-}
 
-#cover-text>p {
-    font-size: 20px;
-}
 
 /* hero image zoom effect */
 @keyframes hero-zoom {
@@ -130,15 +123,15 @@ header ul {
 
 #cover-text {
     display: flex;
-    gap: 10px;
+    gap: 5%;
     text-align: center;
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
-    letter-spacing: 1.5px;
 
-    width: 500px;
-    height: 200px;
+
+    width:60%;
+    height: auto;
     padding: 40px 15px 10px 10px;
 
     background-color: #d83f87;
@@ -146,9 +139,17 @@ header ul {
     color: #fff;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 
-    bottom: 50px;
-    right: 100px;
+    bottom: 5rem;
+    right: 5rem;
     position: absolute;
+}
+
+#cover-text>h1 {
+    font-size: 2rem;
+}
+
+#cover-text>p {
+    font-size: 1.5rem;
 }
 
 /* buttons */
@@ -230,7 +231,6 @@ header ul {
 .box {
     flex: 1;
     background: #e98074;
-    color: #2a1b3d;
     font-weight: bold;
     border-radius: 10px;
     margin: 10px;
@@ -245,7 +245,6 @@ header ul {
 
 .signup {
     background-color: #a4b3b6;
-    color: #2a1b3d;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -256,13 +255,8 @@ header ul {
 }
 
 .signup>img {
-    height: 150px;
-    max-width: 100%;
-}
-
-.signup-form {
-    color: #fff;
-    font-weight: bold;
+    max-height: 10rem;
+    max-width: 10rem;
 }
 
 .field-row {
@@ -278,7 +272,7 @@ footer {
     text-align: center;
     padding: 15px;
     justify-content: space-evenly;
-    
+
 }
 
 .social-links i {
@@ -295,7 +289,6 @@ footer {
 
     .wrapper {
         gap: 1rem;
-        max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
         padding-left: 1rem;
@@ -354,10 +347,6 @@ footer {
 
     .feature-left {
         line-height: 30px;
-    }
-
-    #cover-text {
-        display: none;
     }
 
     .boxes {
