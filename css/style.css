@@ -11,7 +11,7 @@ body {
     font-family: Numito, sans-serif;
     font-weight: 300;
     background: #f5f8fa;
-    /* background-image: linear-gradient(to bottom, #ffc35e, #ff8f6d, #ff6499, #c25dc9, #076ae1); */
+    color: #2a1b3d;
 }
 
 /* used grid settings from revolut to mirror centre alignment and broken sections */
