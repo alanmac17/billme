@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Oxygen:wght@700&display=swap');
 
+/* CSS Variables */
+:root {
+    --primary: #f5f8fa;
+    --dark: #2a1b3d;
+    --light: #fff;
+    --shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    --covertext:
+}
+
 * {
     font-size: 100%;
     box-sizing: border-box;
@@ -9,7 +18,7 @@
 
 body {
     font-family: fira sans, sans-serif;
-    background: #f5f8fa;
+    background: var(--primary);
     color: #2a1b3d;
 }
 
@@ -207,7 +216,7 @@ header ul {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-.feature-right>img {
+.feature-right img {
     max-width: 100%;
     object-fit: contain;
 }
@@ -230,7 +239,8 @@ header ul {
 
 .box {
     flex: 1;
-    background: #e98074;
+    background: #d83f87;
+    color: var(--light);
     font-weight: bold;
     border-radius: 10px;
     margin: 10px;
@@ -254,7 +264,7 @@ header ul {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-.signup>img {
+.signup img {
     max-height: 10rem;
     max-width: 10rem;
 }
@@ -285,17 +295,7 @@ footer {
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-
-    .wrapper {
-        gap: 1rem;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        max-width: 70%;
-        overflow: hidden;
-    }
+@media screen and (max-width: 1000px) {
 
 
     .about {
@@ -306,10 +306,10 @@ footer {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    /* .feature-right>img {
+    .feature-right img {
         max-width: 70%;
-        object-fit: contain;
-    } */
+        height: auto;
+    }
 
 }
 
@@ -332,7 +332,6 @@ footer {
     .about {
         grid-template-columns: (1fr);
         padding: 5px;
-        line-height: 30px;
         text-align: center;
     }
 
@@ -374,6 +373,10 @@ footer {
     .field-row {
         display: flex;
         justify-content: space-between;
+    }
+
+    .about br {
+        display: none;
     }
 
 }
