@@ -306,10 +306,10 @@ footer {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .feature-right img {
+    /* .feature-right img {
         max-width: 70%;
         height: auto;
-    }
+    } */
 
 }
 
@@ -345,9 +345,9 @@ footer {
         display: none;
     }
 
-    .feature-right {
+    /* .feature-right {
         display: none;
-    }
+    } */
 
     .feature-left {
         line-height: 30px;
