@@ -318,11 +318,6 @@ footer {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .feature-right img {
-        max-height: 80%;
-        height: auto;
-    }
-
 }
 
 /* For medium screens size from 800px wide and down */
