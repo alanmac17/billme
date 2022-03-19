@@ -28,7 +28,7 @@ body {
 /* used grid settings from revolut to mirror centre alignment and broken sections */
 .wrapper {
     display: grid;
-    gap: 1.5rem;
+    gap: 1rem;
     min-height: 100vh;
     max-width: 1200px;
     margin-left: auto;
@@ -44,6 +44,7 @@ body {
 h1,
 h2 {
     font-size: 140%;
+    font-weight: 400px;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-family: Oxygen, sans-serif;
@@ -69,7 +70,7 @@ span {
     align-items: center;
     text-decoration: none;
     height: 100%;
-    background: #f5f8fa;
+    background: var(--primary);
     border-radius: 10px;
     letter-spacing: 2px;
     padding-top: 5px;
@@ -169,7 +170,9 @@ header ul {
 /* buttons */
 
 .button {
-    color: var(--white-text);
+    color: var(--dark);
+    box-shadow:inset 0px 1px 3px 0px var(--grey);
+    background-color:var(--grey);
     text-decoration: none;
     text-transform: uppercase;
     border: 1px solid var(--grey);
@@ -177,11 +180,13 @@ header ul {
     margin: auto;
     padding: 5px;
     width: auto;
+    cursor:pointer;
+    font-weight:bold;
 }
 
 .button:hover {
-    background-color: var(--grey);
-    color: var(--dark);
+    background-color: var(--dark);
+    color: var(--light);
     font-weight: bold;
 }
 
@@ -205,6 +210,7 @@ header ul {
     line-height: 0.9cm;
     color: var(--white-text);
     box-shadow: var(--shadow);
+    line-height: 2.5rem;
 }
 
 /* feature section */
