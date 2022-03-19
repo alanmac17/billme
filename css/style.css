@@ -140,6 +140,8 @@ header ul {
     }
 }
 
+/* cover text over hero image */
+
 #cover-text {
     display: flex;
     gap: 10px;
