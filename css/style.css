@@ -27,7 +27,7 @@ body {
     display: grid;
     gap: 1.5rem;
     min-height: 100vh;
-    max-width: 80%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
@@ -49,7 +49,7 @@ h2 {
 
 p {
     overflow-wrap: break-word;
-    max-width: 600px;
+    /* max-width: 600px; */
 }
 
 span {
@@ -114,7 +114,7 @@ header ul {
 
 .hero-image {
     height: 400px;
-    width: auto;
+    width: 100%;
     background: url('/img/background\ image.jpg') no-repeat center center;
     background-size: cover;
     animation-name: hero-zoom;
@@ -143,8 +143,8 @@ header ul {
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 60%;
     height: auto;
+    width: auto;
     padding: 40px 15px 10px 10px;
     background-color: #d83f87;
     opacity: 0.8;
@@ -220,7 +220,8 @@ header ul {
 
 .feature-right img {
     max-width: 100%;
-    object-fit:inherit
+    object-fit: contain;
+    margin: 0;
 }
 
 .feature-left {
@@ -312,7 +313,7 @@ footer {
     }
 
     .feature-right img {
-        max-width: 70%;
+        max-height: 80%;
         height: auto;
     }
 
