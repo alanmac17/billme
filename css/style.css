@@ -138,7 +138,7 @@ header ul {
 
 #cover-text {
     display: flex;
-    gap: 5%;
+    gap: 10px;
     text-align: center;
     justify-content: space-between;
     flex-direction: column;
