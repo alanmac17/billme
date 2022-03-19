@@ -27,7 +27,7 @@ body {
     display: grid;
     gap: 1.5rem;
     min-height: 100vh;
-    max-width: 1200px;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
@@ -49,6 +49,7 @@ h2 {
 
 p {
     overflow-wrap: break-word;
+    max-width: 600px;
 }
 
 span {
@@ -113,7 +114,7 @@ header ul {
 
 .hero-image {
     height: 400px;
-    width: 100%;
+    width: auto;
     background: url('/img/background\ image.jpg') no-repeat center center;
     background-size: cover;
     animation-name: hero-zoom;
@@ -194,7 +195,7 @@ header ul {
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    padding: 30px 5px 30px 0px;
+    padding: 30px 5px 30px 5px;
     background: #2a1b3d;
     border-radius: 10px;
     line-height: 0.9cm;
@@ -209,7 +210,7 @@ header ul {
     justify-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    padding: 30px 0px 30px 0px;
+    padding: 30px 5px 30px 5px;
     background: #44318d;
     color: #fff;
     border-radius: 10px;
@@ -310,10 +311,10 @@ footer {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    /* .feature-right img {
+    .feature-right img {
         max-width: 70%;
         height: auto;
-    } */
+    }
 
 }
 
@@ -352,10 +353,6 @@ footer {
     .about-left {
         display: none;
     }
-
-    /* .feature-right {
-        display: none;
-    } */
 
     .feature-left {
         line-height: 30px;
