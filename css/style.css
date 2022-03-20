@@ -256,7 +256,7 @@ header ul {
 
 .box {
     flex: 1;
-    background: var(--pink-background);
+    background: var(whi);
     color: var(--light);
     font-weight: bold;
     border-radius: 10px;
@@ -265,6 +265,12 @@ header ul {
     max-width: 300px;
     line-height: 20px;
     box-shadow: var(--shadow);
+}
+
+.box img {
+    border-radius: 50%;
+    width: 4rem;
+    float:inline-start;
 }
 
 
