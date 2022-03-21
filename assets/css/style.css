@@ -109,6 +109,7 @@ header ul {
 .hero-outer {
     max-height: 400px;
     width: 100%;
+    background: url('../img/background-image.jpg') no-repeat center center;
     overflow: hidden;
     position: relative;
     border-radius: 10px;
