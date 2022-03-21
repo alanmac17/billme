@@ -50,10 +50,6 @@ h2 {
     font-family: Oxygen, sans-serif;
 }
 
-h3 {
-    font-weight: 500;
-}
-
 p {
     overflow-wrap: break-word;
     /* max-width: 600px; */
@@ -250,6 +246,7 @@ header ul {
 .reasons {
     padding: 15px;
     text-align: center;
+    color: var(--light-purple);
 }
 
 .boxes {
@@ -271,7 +268,6 @@ header ul {
 }
 
 .boxes h3 {
-    font-size: 100%;
     color: #44318d;
 }
 
