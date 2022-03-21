@@ -48,7 +48,6 @@ h2 {
     letter-spacing: 2px;
     text-transform: uppercase;
     font-family: Oxygen, sans-serif;
-
 }
 
 p {
@@ -256,8 +255,8 @@ header ul {
 
 .box {
     flex: 1;
-    background: var(whi);
-    color: var(--light);
+    background: var(--primary);
+    color: var(--dark);
     font-weight: bold;
     border-radius: 10px;
     margin: 10px;
@@ -265,6 +264,15 @@ header ul {
     max-width: 300px;
     line-height: 20px;
     box-shadow: var(--shadow);
+}
+
+.boxes h3 {
+    font-size: 100%;
+    color: #44318d;
+}
+
+.boxes p {
+    color: #44318d;
 }
 
 .box img {
