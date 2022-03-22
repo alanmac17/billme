@@ -223,6 +223,7 @@ header ul {
     border-radius: 10px;
     text-align: center;
     box-shadow: var(--shadow);
+    align-items: center;
 }
 
 .feature-right img {
