@@ -159,6 +159,7 @@ header ul {
     bottom: 5rem;
     right: 5rem;
     position: absolute;
+    margin: 15px;
 }
 
 #cover-text>h1 {
