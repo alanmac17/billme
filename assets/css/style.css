@@ -207,7 +207,7 @@ header ul {
 
 .about {
     display: grid;
-    justify-items: center;
+    justify-items:center;
     text-align: center;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
@@ -218,6 +218,10 @@ header ul {
     color: var(--white-text);
     box-shadow: var(--shadow);
     line-height: 2rem;
+}
+
+.about-left video {
+    max-width: 100%;
 }
 
 /* feature section */
@@ -380,9 +384,9 @@ footer {
         line-height: 20px;
     }
 
-    .about-left {
+    /* .about-left {
         display: none;
-    }
+    } */
 
     .feature-left {
         line-height: 30px;
@@ -420,5 +424,9 @@ footer {
 @media screen and (max-width: 450px) {
     #cover-text {
         position: inherit;
+    }
+
+    .hero-image {
+        height: 100%;
     }
 }

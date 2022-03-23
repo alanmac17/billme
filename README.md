@@ -91,5 +91,8 @@ Using flex design the logo and links move center aligned on smaller screens.
 When hovering over the links the background color changes
 
 Hero Image
-The hero image is a artist 
+The hero image fits in with the color scheme, there is a zoom animation to catch the users attention and displays cover text with a strong title message.
+
+
+
 
