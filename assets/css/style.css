@@ -41,13 +41,24 @@ body {
 
 /* headings & paragraphs */
 
-h1,
-h2 {
-    font-size: 140%;
+h1
+ {
+    font-size: 48px;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-family: Oxygen, sans-serif;
+    line-height: 7vh;
+}
+
+h2
+ {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: Oxygen, sans-serif;
+    line-height: 7vh;
 }
 
 p {
@@ -145,7 +156,6 @@ header ul {
     display: flex;
     gap: 10px;
     text-align: center;
-    /* justify-content: space-between; */
     flex-direction: column;
     flex-wrap: wrap;
     height: auto;
@@ -162,7 +172,7 @@ header ul {
 }
 
 #cover-text>h1 {
-    font-size: 2rem;
+    font-size: 48px;
 }
 
 /* buttons */
@@ -202,7 +212,7 @@ header ul {
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    padding: 30px 5px 30px 5px;
+    padding: 30px 15px 30px 15px;
     background: var(--dark);
     border-radius: 10px;
     color: var(--white-text);
@@ -228,7 +238,7 @@ header ul {
 
 .feature-right img {
     max-width: 100%;
-    max-height: 380px;
+    max-height: 400px;
     object-fit: contain;
     margin: 0;
 }
@@ -406,3 +416,9 @@ footer {
 
 }
 
+/* For medium screens size from 800px wide and down */
+@media screen and (max-width: 450px) {
+    #cover-text {
+        position: inherit;
+    }
+}
