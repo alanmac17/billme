@@ -370,13 +370,11 @@ footer {
     }
 
     .about {
-        grid-template-columns: (1fr, auto);
         padding: 10px;
         text-align: center;
     }
 
     .features {
-        grid-template-columns: (1fr, auto);
         padding: 10px;
         line-height: 20px;
     }
