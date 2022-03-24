@@ -2,7 +2,7 @@
 
 Welcome to Billme. This website has been created for Billme a fintech business idea.
 
-![I am a responsive screenshot](/assets/ux-files/website%20responsive%20screenshot.png)
+![I am a responsive screenshot](/assets/ux-files/website-responsive-screenshot.png)
 
 Billme is service that users sign up to consolidate all their bills, subscriptions, free trials etc by providing a billme email address for users to use at the sign up stage.
 Users can then log in to the Billme website to manage all of these in one place. Billme then promises to provide vital insights in to upcoming renewal dates, comparision of subscriptions and plans and notifications of out of contract charges. Future development of the website and platform will offer these amazing AI capabilities. 
@@ -83,12 +83,14 @@ The site is a single landing page with several sections. Future development of t
 
 
 ### Header & Navigation Bar
+![header-desktop](/assets/ux-files/Top-Nav-Desktop.png)
 The navigation bar contains a logo that links to the index page.
 There are 3 links: About, Features, Sign up that navigate the user to the corresponding sections with the page.
 Using flex design the logo and links move center aligned on smaller screens. 
+![header-desktop](/assets/ux-files/Top-Nav-Mobile.png)
 When hovering over the links the background color changes
 
-Hero Image
+#### Hero Image
 The hero image is set as a background and was selected to fit in with the color scheme and give a welcoming feeling. There is a zoom animation to catch the users attention and cover text is overlaid with a strong title message.
 
 ### The about section
