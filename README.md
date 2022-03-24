@@ -61,7 +61,6 @@ Between mobile and Desktop I was able to make decisions as to how the content sh
 The wireframes only acted as a guide and the final design was tweeked as content and media was added. 
 
 
-
 ## Color Scheme
 https://visme.co/blog/website-color-schemes/
 https://www.fcinq.com/
