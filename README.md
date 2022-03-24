@@ -20,7 +20,7 @@ Those with a wish to use technology to have manage their life
 Those who have never heard of Billme
 Those who know a little about Billme and what to find out more inforamtion
 
-## User Storys:
+### User Storys:
 As a user I want to quickly know what Billme is about
 As a user I want to easily navigate through short snippets of content
 As a user I want to know what features Billme has
@@ -28,28 +28,30 @@ As a user I want to see testimonials from other users
 As a user I want to know more
 As a user I want to sign up
 
-# WireFraming:
+## WireFraming:
 The wireframes were created using Balsamiq to produce low fidelity wireframes.
 
 The structure of the site was based on landing pages/ click funnels. 
 Alongside that I looked for best practise in landing page design with some examples being:
-https://www.salesforce.com/eu/?ir=1
-https://www.gong.io/
-https://www.revolut.com/
-https://justworks.com/
+- [Salesforce](https://www.salesforce.com/eu/?ir=1)
+- [Gong](https://www.gong.io/)
+- [Revolut](https://www.revolut.com/)
+- [Justworks](https://justworks.com/)
 
-What all fintech or technology sites tend to have in common is: 
-A strong headline
-A short about us or product explainer section
-A unique value proposition or features section
-A customer testimonials or awards section
-A sign up or email subscription section
-
-The structure of the pages are center aliged through a wrapper or grid structure; with a margin left and right.
+Leading fintech websites tend to structure their pages with a center alignment using a wrapper div and/or a grid structure; with a margin left and right.
 The sections all easily flow from one to next through great design and color schemes.
-Adding revelent content and different media types to support the text based messaging.
+Revelent content and different media types support the text based messaging.
 
-## The Wireframes 
+Their landing page user journeys tend to follow a similar path: 
+* A strong headline
+* A short about us or product explainer section
+* A unique value proposition or features section
+* A customer testimonials or awards section
+* A sign up or email subscription section
+
+Based on this research I then began Billme's wireframes.
+
+### The Wireframes 
 With this research in mind the wireframes have both a desktop and mobile version showing the following sections:
 Header/Navigation
 Hero or Showcase
@@ -59,33 +61,28 @@ Reasons Why
 Sign Up 
 Footer
 
-Between mobile and Desktop I was able to make decisions as to how the content should be responsive to screensize and which solutions are needed between using floats, css flex and css grid.
-The wireframes only acted as a guide and the final design was tweeked as content and media was added. 
+Between mobile and Desktop I was able to make decisions as to how the content should be responsive to screensize and which solutions are needed between using floats, css flex and css grid. The wireframes only acted as a guide and the final design was tweeked as content and media was added. 
 
+### Color Scheme
+After researching color schemes I found **[Visme](https://visme.co/blog/website-color-schemes/) 50 Gorgeous Color Schemes From Award-Winning Websites**.
+I looked for something engaging to give excitment to a fintech site. Based on the award winning [fcingq](https://www.fcinq.com/) website I used their scheme of dark cerise, royal purple and dark slate blue, as I found the colors blend well and produce both a beautiful and engaging site.
 
-## Color Scheme
-https://visme.co/blog/website-color-schemes/
-https://www.fcinq.com/
-I looked for something engaging to give excitment to a fintech site.
-As per visme.co : Dark cerise, royal purple and dark slate blue are blended in this beautiful and engaging site.
-
-Code Reusability:
+### Code Reusability:
 The colors were set as CSS variables and used throughout the site.
 
-Fonts:
+### Fonts:
 Fira Sans as the primary text font
 Oxygen for H1, H2 text
 
-Logo:
-Icon: https://thenounproject.com/icon/bill-149906/
-Created using adobe express logo maker: https://express.adobe.com/express-apps/logomaker/preview
+### Logo:
+I created the log using [Adobe-Express](https://express.adobe.com/express-apps/logomaker/preview)
+The icon used was from [The-Noun-Project](https://thenounproject.com/icon/bill-149906/)
 
-# Features
-
+## Site Features
 The site is a single landing page with several sections. Future development of the Billme idea will lead to a much more expansive website covering company, product, services, resources, support, pricing as well as the backend of the platform that users sign in to. 
 
 
-## Header & Navigation Bar
+### Header & Navigation Bar
 The navigation bar contains a logo that links to the index page.
 There are 3 links: About, Features, Sign up that navigate the user to the corresponding sections with the page.
 Using flex design the logo and links move center aligned on smaller screens. 
@@ -94,19 +91,19 @@ When hovering over the links the background color changes
 Hero Image
 The hero image is set as a background and was selected to fit in with the color scheme and give a welcoming feeling. There is a zoom animation to catch the users attention and cover text is overlaid with a strong title message.
 
-## The about section
+### The about section
 The about section will give the user a visual introduction to the Billme platform through a video (the video is a stock placeholder) and also in text explains how Billme works in simple concise wording. This should create interest and allow the user to click the read more button or continue scrolling through the landing page. The section uses CSS grid to easily move from desktop to mobile. 
 
-## The feature section
+### The feature section
 The feature section outlines some of the key features and selling points of the platform. It should create a desire to sign up to bill me which can be done through the sign up button. The text contains icons from font-awesome to differentiate the points. The image within the section will change depending on the screen size using a picture tag and src set.
 
-## The reasons section
+### The reasons section
 The purpose of the reasons section is to provide customer testimonial to the Billme product and service. The section contains 4 boxes each displaying an image icon, message and user name. For any fintech product user reviews and testimonials are vital and some users will not take action without this type of content. The is laid out using flexbox and is responsive to screen size where is shows inline on mobile and side by side on desktop.
 
-## The sign up section
+### The sign up section
 The sign up section allows the user to sign up to Billme. It is a simple 2 field form which is set to GET but with future development will push to a database. Upon submitting and clicking Let's go the user is taken to a similar page but the text in the sign up section is replaced by a thank you message and next steps.
 
-## The footer section
+### The footer section
 This section contains subtle yet recognisable icon links to Billmes social media sites and will open in a new tab upon clicking them. 
 
 
@@ -122,7 +119,8 @@ Initially I set some display to none for some image and videos as when viewing o
 As I learned more about setting sizes I managed to set the widths to be responsive to smaller screens.
 
 Lighthouse Report
-Link to results. 100% Accessability on mobile and desktop. There was a suggestion related to improving the space between the navigation links so a line-height was added to the nav-links section. The performance can be improved by hosting the video elsewhere and embeding. As the site grows and additional media is added all videos will be hosted elsewhere.
+Link to results. 
+100% Accessability on mobile and desktop. There was a suggestion related to improving the space between the navigation links so a line-height was added to the nav-links section. The performance can be improved by hosting the video elsewhere and embeding. As the site grows and additional media is added all videos will be hosted elsewhere.
 
 ![Lighthouse Report Mobile](/assets/testing/lighthouse%20mobile%20report.png)
 ![Lighthouse Report Mobile](/assets/testing/lighthouse%20desktop%20report.png)
@@ -130,10 +128,11 @@ Link to results. 100% Accessability on mobile and desktop. There was a suggestio
 HTML Validator
 Document checking completed. No errors or warnings to show.
 
+
 CSS Validator:
 W3C CSS Validator results for TextArea (CSS level 3 + SVG)
-2 parse errors for CSS grid - Parse Error (1fr, auto)
-It's Unclear if this is an issue with the validator 
+Congratulations! No Error Found.
+
 
 Devices:
 Upon deployment the site has been tested on:
