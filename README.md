@@ -2,6 +2,8 @@
 
 Welcome to Billme. This website has been created for Billme a fintech business idea.
 
+![I am a responsive screenshot](/assets/ux-files/website%20responsive%20screenshot.png)
+
 Billme is service that users sign up to consolidate all their bills, subscriptions, free trials etc by providing a billme email address for users to use at the sign up stage.
 Users can then log in to the Billme website to manage all of these in one place. Billme then promises to provide vital insights in to upcoming renewal dates, comparision of subscriptions and plans and notifications of out of contract charges. Future development of the website and platform will offer these amazing AI capabilities. 
 
@@ -122,6 +124,9 @@ As I learned more about setting sizes I managed to set the widths to be responsi
 Lighthouse Report
 Link to results. 100% Accessability on mobile and desktop. There was a suggestion related to improving the space between the navigation links so a line-height was added to the nav-links section. The performance can be improved by hosting the video elsewhere and embeding. As the site grows and additional media is added all videos will be hosted elsewhere.
 
+![Lighthouse Report Mobile](/assets/testing/lighthouse%20mobile%20report.png)
+![Lighthouse Report Mobile](/assets/testing/lighthouse%20desktop%20report.png)
+
 HTML Validator
 Document checking completed. No errors or warnings to show.
 
@@ -151,7 +156,7 @@ Content
 Overall style of the website is based on research in to fintech company sites.
 The wrapper containing margins and max width was based on revolut.com
 
-For using grids I followied Traversy Media tutorials to learn how to section the about, reasons and sign up and also took the idea for setting variables.
+For using grids I followed Traversy Media tutorials. This helped with creating 2 column grids for the about, reasons and sign up sectiond and also took the idea for setting color variables.
 Build a Responsive Grid CSS Website Layout From Scratch -https://www.youtube.com/watch?v=moBhzSC455o
 CSS Grid Crash Course 2022 - https://www.youtube.com/watch?v=0xMQfnTU6oo
 
