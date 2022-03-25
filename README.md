@@ -111,8 +111,7 @@ The sign up section allows the user to sign up to Billme. It is a simple 2 field
 <img src="assets/ux-files/sign-up-section-desktop.png" width="auto" height="auto">
 
 ### The footer section
-This section contains subtle yet recognisable icon links to Billmes social media sites and will open in a new tab upon clicking them. 
-
+This section contains subtle yet recognisable icon links to Billmes social media sites and will open in a new tab upon clicking them.
 
 ## Testing:
 Testing was done as each change was saved.
