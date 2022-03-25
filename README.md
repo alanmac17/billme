@@ -2,31 +2,35 @@
 
 Welcome to Billme. This website has been created for Billme a fintech business idea.
 
-<img src="/assets/ux-files/website-responsive-screenshot.png" width="auto" height="500">
+ The live site can be viewed by clicking: https://alanmac17.github.io/billme/
 
-Billme is service that users sign up to consolidate all their bills, subscriptions, free trials etc by providing a billme email address for users to use at the sign up stage.
-Users can then log in to the Billme website to manage all of these in one place. Billme then promises to provide vital insights in to upcoming renewal dates, comparision of subscriptions and plans and notifications of out of contract charges. Future development of the website and platform will offer these amazing AI capabilities. 
+<img src="/assets/ux-files/website-responsive-screenshot.png" width="auto" height="auto">
 
-The purpose of this website is to act as a single landing page that Billme marketers will send traffic to from online advertising campaigns, social media or crm emails.
-This will be the page that new visitors land on first and should interest them enough to sign up to Billme.
+## About Billme
+Billme is service that users sign up to consolidate all their bills, subscriptions, free trials etc by providing a billme email address for users to use at the sign up stage. Users can then log in to the Billme website to manage all of these in one place. Billme then promises to provide vital insights in to upcoming renewal dates, comparision of subscriptions and plans and notifications of out of contract charges. Future development of the website and platform will offer these amazing AI capabilities. 
 
-The goal is to create an easy to read page of relevent content. Supported with various media types it should educate visitors as to how Billme works and it's unique features.
-Visitors will have enough information to intice/allow them to take action by signing up to Billme through a short sign up form.
+### The Purpose
+- The purpose of this website is to act as a single landing page that Billme marketers will send traffic to from online advertising campaigns, social media or crm emails. This will be the page that new visitors land on first and should interest them enough to sign up to Billme.
 
-## Targer Audience:
-Visitors to the site will have shown some interest in Billme through lead generation campaigns.
-Those with a general interest in new technologies
-Those with a wish to use technology to have manage their life
-Those who have never heard of Billme
-Those who know a little about Billme and what to find out more inforamtion
+### Goals
+- The goal is to create an easy to read page of relevent content that is supported with various media types. 
+- It should educate visitors as to how Billme works and it's unique features. 
+- Visitors should have information to both entice and easily allow them to take action by signing up to Billme through a short sign up form.
+
+### Targer Audience:
+- Visitors to the site will have shown some interest in Billme through lead generation campaigns.
+- Those with a general interest in new technologies
+ -Those with a wish to use technology to have manage their finances
+- Those who have never heard of Billme
+- Those who know a little about Billme and what to find out more information
 
 ### User Storys:
-As a user I want to quickly know what Billme is about
-As a user I want to easily navigate through short snippets of content
-As a user I want to know what features Billme has
-As a user I want to see testimonials from other users
-As a user I want to know more
-As a user I want to sign up
+* As a user I want to quickly know what Billme is about
+* As a user I want to easily navigate through short snippets of content
+* As a user I want to know what features Billme has
+* As a user I want to see testimonials from other users
+* As a user I want to know more
+* As a user I want to sign up
 
 ## User Experience:
 * The structure of the site is based on landing pages for linking to the site externally, for examplefrom a marketing campaign.
@@ -50,6 +54,7 @@ Their landing page user journeys tend to follow a similar path:
 
 Based on this research I then began Billme's wireframes.
 
+## Design
 ### The Wireframes 
 With this research in mind the wireframes have both a desktop and mobile version showing the following sections:
 - Header/Navigation
@@ -66,13 +71,13 @@ With this research in mind the wireframes have both a desktop and mobile version
 ### Color Scheme
 After researching color schemes I found **[Visme](https://visme.co/blog/website-color-schemes/) 50 Gorgeous Color Schemes From Award-Winning Websites**.
 I looked for something engaging to give excitment to a fintech site. Based on the award winning [fcingq](https://www.fcinq.com/) website I used their scheme of dark cerise, royal purple and dark slate blue, as I found the colors blend well and produce both a beautiful and engaging site.
+<img src="https://github.com/alanmac17/billme/blob/main/assets/ux-files/color-scheme.png" width="auto" height="auto">
 
 ### Code Reusability:
-The colors were set as CSS variables and used throughout the site.
+- The colors were set as CSS variables and used throughout the site.
 
 ### Fonts:
-Fira Sans as the primary text font
-Oxygen for H1, H2 text
+Imported from google fonts Fira Sans is set as the primary text font, with Oxygen for H1, H2 text
 
 ### Logo:
 I created the log using [Adobe-Express](https://express.adobe.com/express-apps/logomaker/preview)
@@ -80,7 +85,6 @@ The icon used was from [The-Noun-Project](https://thenounproject.com/icon/bill-1
 
 ## Site Features
 The site is a single landing page with several sections. Future development of the Billme idea will lead to a much more expansive website covering company, product, services, resources, support, pricing as well as the backend of the platform that users sign in to. 
-
 
 ### Header & Navigation Bar
 ![header-desktop](/assets/ux-files/Top-Nav-Desktop.png)
@@ -116,6 +120,7 @@ This section contains subtle yet recognisable icon links to Billmes social media
 ## Testing:
 Testing was done as each change was saved.
 - Within gitpod I utilised the live server extension to see changes in real time.
+- Using Unicorn Revealer I checked for any overflow.
 - Using google developer tools I checked the responsiveness when changing screen sizing and used the desktop and mobile filters
 - Upon pushing the code to github I ran the lighthouse reports for mobile and desktop.
 - Lastly I ran the code through validators to looks for errors in html and css.
@@ -126,12 +131,17 @@ Testing was done as each change was saved.
 -  One error code that presented itself in the CSS validator was CSS grid - Parse Error (1fr, auto), thanks to Mark on Slack forums for helping resolve this by removing the commas.
 -  Background image initially did not display on creating the github page. I changed the path to a relative URL and then added the background to the outer div which resolved this.
 - One unresolved issue is the sizing of the sign up input fields between 400 and 800 width on viewports. I would like the label and input to align alongside each other. With time constraints I will resolve this at a future date.
+
 ### Lighthouse Report
 Link to results. 
 100% Accessability on mobile and desktop. There was a suggestion related to improving the space between the navigation links so a line-height was added to the nav-links section. The performance can be improved by hosting the video elsewhere and embeding. As the site grows and additional media is added all videos will be hosted elsewhere.
 
 ![Lighthouse Report Mobile](/assets/testing/lighthouse%20mobile%20report.png)
 ![Lighthouse Report Mobile](/assets/testing/lighthouse%20desktop%20report.png)
+
+### Wave Report
+Using the WAVE Web accessiblity evaluation tool no errors were deteched. 
+[View Details](https://wave.webaim.org/report#/https://alanmac17.github.io/billme/) 
 
 ### HTML Validator
 Document checking completed. No errors or warnings to show.
@@ -141,13 +151,13 @@ W3C CSS Validator results for TextArea (CSS level 3 + SVG)
 Congratulations! No Error Found.
 
 ### Device Testing:
-Upon deployment the site has been tested on:
+Upon deployment the site has been tested on the following devices with no issues present:
  - Samsung Galaxy S20 1440 x 3200 pixels
  - Lenovo Windows Laptop 1920 x 1080 pixels
  - Macbook 2560 × 1600 pixels
  - Apple iPad 2048 x 1536 pixels
 
-## Deployment:
+### Deployment:
 On GitHub, navigate to your site's repository.
 Decide which publishing source you want to use. Main
 Navigate to the publishing source.
@@ -171,20 +181,15 @@ Overall style of the website is based on research in to fintech company sites.
 
 ### Media
 All images and media are from unsplash:
-* Woman sitting holding phone - image in features section on small devices
-* Photo by bruce mars on Unsplash
-shorturl.at/ghCK3
-
-* Man holding phone - image in features section
-Photo by Thom Holmes on Unsplash 
-shorturl.at/ejwRU
-
-* Background Hero Image
-Photo by Mo on Unsplash 
-shorturl.at/luEK3
+* Woman sitting holding phone - image in features section on small devices. Photo by bruce mars on Unsplash shorturl.at/ghCK3
+* Man holding phone - image in features section. Photo by Thom Holmes on Unsplash shorturl.at/ejwRU
+* Background Hero Image. Photo by Mo on Unsplash shorturl.at/luEK3
 
 Boxes Images
 * Photo by Ryan Hoffman on Unsplash 
 * Photo by Joshua Oluwagbemiga on Unsplash 
 * Photo by Gabriel Silvério on Unsplash 
 * Photo by Hazel Aksoy on Unsplash 
+
+### Readme
+Code Institute Sample README.md
